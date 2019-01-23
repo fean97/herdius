@@ -1,0 +1,26 @@
+@import url('menu.css');
+@import url('splash.css');
+@import url('content.css');
+@import url('basicbutton.css');
+@import url('timeline.css');
+@import url('team.css');
+@import url('overlay.css');
+@import url('advisors.css');
+@import url('media.css');
+@import url('social.css');
+@import url('contact.css');
+
+*,
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url(https://www.herdius.com/img/home-background-left.png) no-repeat top left, url(https://www.herdius.com/img/home-background-right.png) no-repeat top right, #061649;
+
+}

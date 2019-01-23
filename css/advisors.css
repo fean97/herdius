@@ -1,0 +1,165 @@
+.advisors {
+    padding-top: 50px;
+    max-width: 1275px;
+    margin: 0 auto;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item-2-name {
+    padding-right: 200px;
+}
+
+.item-2-name h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1.3px;
+}
+
+.item-2-name p {
+    color: #1195F7;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.item-2-text {
+    max-width: 617px;
+    color: #8EC7FF;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 1.3px;
+
+}
+
+.advisors-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.advisors-image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+    width: 190px;
+    z-index: 1;
+}
+
+.advisors-member.haha .overlay-hover {
+    opacity: 1;
+}
+
+.advisors-member.haha .overlay {
+    opacity: 0;
+}
+
+.advisors-member {
+    width: 190px;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.advisors-text h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1.3px;
+}
+
+.advisors-text p {
+    color: #1195F7;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.advisors-image-0 {
+    background-image: url("https://www.herdius.com/img/james.jpg");
+}
+
+.advisors-image-1 {
+    background-image: url("https://www.herdius.com/img/nina.jpg");
+}
+
+.advisors-image-2 {
+    background-image: url("https://www.herdius.com/img/dittmer.jpg");
+}
+
+.advisors-image-3 {
+    background-image: url("https://www.herdius.com/img/fuchs.jpg");
+}
+
+.advisors-image-4 {
+    background-image: url("https://www.herdius.com/img/mckenna.jpg");
+}
+
+.advisors-image-5 {
+    background-image: url("https://www.herdius.com/img/miriam.jpg");
+}
+
+.advisors-image-6 {
+    background-image: url("https://www.herdius.com/img/noriaki.jpg");
+}
+
+.advisors-image-7 {
+    background-image: url("https://www.herdius.com/img/christian.jpg");
+}
+
+
+.advisors-info {
+    margin-top: 100px;
+}
+
+.owl-2 .owl-prev {
+    position: absolute;
+    left: 0;
+}
+
+.owl-2 .owl-next {
+    position: absolute;
+    right: 0;
+}
+
+.whitepaper-button {
+    width: 284px;
+    height: 54px;
+    margin-bottom: 100px;
+}
+
+.owl-2 .owl-dots .owl-dot span {
+    background: #fff !important;
+    box-shadow: 0px 0px 13px #8EC7FF;
+    position: relative;
+
+}
+
+
+.owl-2 .owl-dots .owl-dot.active span {
+    background: #0053FB !important;
+    transition: all 0.5s ease-out;
+}
+
+
+.owl-2 .owl-dots .owl-dot.active span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 999px;
+    border: 1px solid #0053FB;
+    box-shadow: 0px 0px 24px 0px rgba(18, 60, 255, 0.4);
+
+}

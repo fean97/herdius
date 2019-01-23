@@ -1,0 +1,151 @@
+.team {
+    padding-top: 100px;
+    max-width: 1275px;
+    margin: 0 auto;
+}
+
+.team-header {
+    color: #fff;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.team-info {
+    position: relative;
+    height: 361px;
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.2s ease-out;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    opacity: 0.7;
+
+}
+
+.team-info1 {
+    background-image: url("https://www.herdius.com/img/Balazs.jpg");
+
+}
+
+.team-info2 {
+    background-image: url("https://www.herdius.com/img/florian.jpg");
+
+}
+
+.team-info3 {
+    background-image: url("https://www.herdius.com/img/Jorgen.jpg");
+
+}
+
+.team-info4 {
+    background-image: url("https://www.herdius.com/img/thomas.jpg");
+
+}
+
+.team-info5 {
+    background-image: url("https://www.herdius.com/img/Albert.jpg");
+
+}
+
+.team-info .team-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.team-info .team-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.team-info .team-social-link {
+    margin-top: 25px;
+
+}
+
+.team-name {
+    color: #fff;
+
+}
+
+.team-name h2 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.team-name p {
+    margin-top: 30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.team-text {
+    color: #1195F7;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    line-height: 30px;
+    max-width: 90%;
+    margin: 25px auto 0;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+.owl-1 .owl-stage {
+    left: -80px;
+}
+
+.team-social-link > svg {
+    color: #fff;
+    font-size: 24px;
+}
+
+.item-1:hover .overlay {
+    opacity: 0;
+}
+
+.item-1:hover .overlay-hover {
+    opacity: 1;
+}
+
+.item-1:hover .team-text {
+    opacity: 1;
+}
+
+.item-1:hover .team-info {
+    opacity: 1;
+}
+
+.owl-1 .owl-dots .owl-dot span {
+    background: #fff !important;
+    box-shadow: 0px 0px 13px #8EC7FF;
+    position: relative;
+
+}
+
+.owl-1 .owl-dots .owl-dot.active span {
+    background: #0053FB !important;
+    transition: all 0.5s ease-out;
+}
+
+.owl-1 .owl-dots .owl-dot.active span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 999px;
+    border: 1px solid #0053FB;
+    box-shadow: 0px 0px 24px 0px rgba(18, 60, 255, 0.4);
+
+}

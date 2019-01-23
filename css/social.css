@@ -1,0 +1,19 @@
+.social {
+    max-width: 1275px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.social-title {
+    font-size: 34px;
+    color: #fff;
+    margin: 40px 0px;
+    font-weight: 500;
+}
+
+.social-link {
+    margin-right: 70px;
+    color: #1190ef;
+    font-size: 27px;
+}

@@ -1,0 +1,137 @@
+.media {
+    background: #041B63;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.media-wrapper {
+    max-width: 1275px;
+    margin: 0 auto;
+
+}
+
+/*
+.media-gradient {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(50% 50%, #551398 25%, #041b63 90%);
+}
+*/
+
+.media-news {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.media-card {
+    width: 605px;
+    background-color: rgb(232, 234, 244);
+    position: relative;
+    transition: all 0.3s ease-out;
+    margin-bottom: 20px;
+}
+
+.media-card:hover .overlay-half-1 {
+    opacity: 0;
+}
+
+.media-card:hover .overlay-half-2 {
+    opacity: 0.7;
+}
+
+.media-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4), 0 12px 24px 0 #6F24C6;
+    background: #fff;
+}
+
+.media-image {
+    width: 100%;
+    height: 303px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.media-date {
+    position: absolute;
+    bottom: 26px;
+    left: 26px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+
+.media-date svg {
+    margin-right: 10px;
+}
+
+.overlay-half-1 {
+    background: linear-gradient(-180deg, transparent 50%, #000000 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    transition: all 0.3s ease-out;
+}
+
+.overlay-half-2 {
+    background: radial-gradient(circle at 50% 170%, #6C0CA0 40%, rgba(6, 22, 73, 0) 65%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.media-image-1 {
+    background-image: url("https://cdn-images-1.medium.com/max/1200/1*oy5t-1FJjfUTNgJvhme-dw.png");
+}
+
+.media-image-2 {
+    background-image: url("https://cdn-images-1.medium.com/max/1200/1*akm56OFwVJ8dkiuabMOuKQ.png");
+}
+
+.media-image-3 {}
+
+.media-text {
+    margin: 0px 40px;
+}
+
+.media-text h2 {
+    font-size: 17px;
+    margin: 25px 0px 17px;
+    letter-spacing: 1.3px;
+}
+
+.media-text p {
+    font-size: 15px;
+    color: #6A7D8B;
+    margin: 30px 0px;
+    letter-spacing: 1.4px;
+    padding-bottom: 60px;
+}
+
+.navigate-link {
+    position: absolute;
+    left: 26px;
+    bottom: 26px;
+    color: #1195F7;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navigate-link svg {
+    margin-right: 10px;
+}

@@ -1,0 +1,112 @@
+.contact {
+    max-width: 1275px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.left-side-list {
+    list-style: none;
+    color: #1195F7;
+    margin-top: 35px;
+}
+
+.left-side-list li {
+    margin: 15px 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.right-side h2 {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.right-side .input-email {
+    margin: 30px 0px 70px;
+    position: relative;
+}
+
+.right-side .input-email-inside {
+    background: #061649;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #213a6e;
+
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+}
+
+.input-label {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: #1195F7;
+    font-size: 17px;
+    transition: all 0.2s ease-out;
+}
+
+.input-email-inside:focus ~ .input-label {
+    top: -20px;
+    font-size: 15px;
+}
+
+.input-email-inside[aria-invalid=true] ~ .input-label {
+    top: -20px;
+    font-size: 15px;
+}
+
+.error {
+    color: #8EC7FF;
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    position: absolute;
+    display: none;
+
+}
+
+.mid-side {
+    width: 500px;
+}
+
+.right-side {
+    margin: 0 auto;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+
+}
+
+.copyright p {
+    color: #1195F7;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.copyright-link {
+    margin-left: 100px;
+}
+
+.copyright-link a {
+    margin: 0px 20px;
+    color: #1195F7;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-out;
+}
+
+.copyright-link a:hover {
+    color: #8EC7FF;
+    text-shadow: 0 0 6px rgba(142, 199, 255, 0.4);
+}
